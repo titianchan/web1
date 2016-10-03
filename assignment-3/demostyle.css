@@ -1,0 +1,28 @@
+body{
+    background-color: #333333;
+}
+
+h1{
+    color:red;
+    background-color: #dedede;
+    font-weight: normal;
+}
+p{ background-color: #666666;
+    color: white;
+}
+.first-paragraph {
+ font-size: 30px;
+ font-family: "Montserrat", arial, sans-serif;
+ border: 2px solid yellow;
+ font-weight: bold;
+ text-decoration: underline;
+ font-style: italic;
+ padding: 30px;
+ margin: 120px;
+}
+
+
+
+
+
+
