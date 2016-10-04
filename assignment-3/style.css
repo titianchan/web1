@@ -61,8 +61,8 @@ padding: 10px 15px;
 border: 2px solid rgba(255, 255, 255, 0);
 }
 a.nav-link:hover {
-    color. #FFD86B;
-    border-color. #FFD86B;
+    color: #FFD86B;
+    border-color: #FFD86B;
 }
 
 /*Main content*/
@@ -111,13 +111,13 @@ margin: 20px auto;
 .card-title {
 padding: 10px 20px ;
 margin: 20px 0 10px 0;
-font-size: 24px';
+font-size: 24px;
 }
 
 /*Coffee*/
 .coffee-quote {
 font-size: 30px;
-color. #165445f;
+color: #165445f;
 }
 .menu {
 border: 4px solid #ddd;
@@ -137,7 +137,7 @@ margin-bottom: 20px;
 
 /* Assignments */
 .assignment-list {
-    border. 4px solid #ddd;
+    border: 4px solid #ddd;
     padding: 20px;
     margin: 20px auto;
     width: 860px;
@@ -149,7 +149,7 @@ margin-bottom: 20px;
 .search-placeholder {
 width: 600px;
 height: 400px;
-background-color. #ddd;
+background-color: #ddd;
 margin: 20px auto;
 padding: 20px;
 }
