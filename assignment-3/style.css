@@ -67,7 +67,7 @@ border: 2px solid rgba(255, 255, 255, 0);
 /*Main content*/
 .main-content {
 padding: 20px;
-text-align; center
+text-align: center;
 }
 
 
@@ -140,7 +140,7 @@ margin-bottom: 20px;
     padding: 20px;
     margin: 20px auto;
     width: 860px;
-    text-align; center;
+    text-align: center;
 
 }
 
@@ -151,4 +151,5 @@ height: 400px;
 background-color. #ddd;
 margin: 20px auto;
 padding: 20px;
+text-align: center;
 }
