@@ -257,15 +257,14 @@ text-align: left;
 .menu td {
 padding: 10px 10px;
 vertical-align: top;
-text-align: right;
+text-align: left;
 }
 .menu dd {
     margin-left: 0;
     color: #666;
     font-style: italic;
     font-size: 14px;
-   
-}
+   }
 
 
 
