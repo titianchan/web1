@@ -1,24 +1,69 @@
-body, html {
-  margin: 0;
-  font-family: arial, sans-serif;
-  text-align: center;
-}
-h1 {
-  background-color: #d44413;
-  color: #fff;
-  margin: 0;
-  font-weight: normal;
-  padding: 10px 20px;
-}
-h2 {
-  border-top: 1px solid #aaa;
-  padding-top: 20px;
-  margin: 50px 20px 0px 20px;
+body {
+    background-color: white;
+    font-family: arial, sans-serif;
+    margin: 0;
 }
 
-img {
-  margin: 20px;
-  border: 1px solid #ddd;
-  min-height: 400px;
-  min-width: 400px;
+
+.main-nav {
+    background-color: #333333;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.nav-teal {
+    color: #62B7BB;
+}
+.nav-blue {
+    color: #288bcd;
+}
+.nav-red {
+    color: #ee5573;
+}
+.nav-yellow {
+    color: #ffa73a;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* hero style */
+.hero {
+    background-image: url('images/city-yellow.jpg');
+    min-height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+.hero-h1 {
+    margin: 0;
+    padding-top: 100px;
+}
+
+.left-box {
+background-color: #ffa73a;
+width: 300px;
+height: 300px;
+display: inline-block;
+vertical-align: top;
+margin-right: 20px;
+}
+.right-box {
+    border: 2px solid #ffa73a;
+    width:300px;
+    height:300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main-contrnt {
+    text-align: center
 }
