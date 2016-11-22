@@ -1,0 +1,61 @@
+.logo {
+float: left;
+margin-right: 100px;
+width: 0;
+height: 0;
+color. rgba(255,255,255,0);
+padding: 85px 300px 0 0;
+background-image: url('images/logo.png');
+background-size: 300px 85px;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 3px;
+transition: all 0.2s ease;
+}
+
+/* Navagation */
+
+.main-nav {
+max-width: 960px;
+margin: 20px auto;
+text-align: right;
+position: fixed;
+width: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 40px 30px 40px 30px;
+    display: inline-block;
+    border-radius: px;
+    margin: 5px;
+}
+
+
+.nav-gallery {
+background-image: url('images/gallery.png');
+background-size: 49;
+background-repeat:no-repeat;
+
+
+}
+.nav-tips {
+background-image: url('images/tips.png');  
+background-size: 57;
+background-repeat:no-repeat;
+
+}
+.nav-home {
+background-image: url('images/home.png'); 
+background-size: 50;
+background-repeat:no-repeat;
+ 
+}
+
+
+.hero-yellow {
+margin: 130px auto;
+text-align: left;
+position: fixed;
+width: 100%;
+}
