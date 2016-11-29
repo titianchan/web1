@@ -89,3 +89,7 @@ body {
     font-family: arial, sans-serif;
 
 }
+
+.boxed {
+  border: 1px solid black ;
+}
