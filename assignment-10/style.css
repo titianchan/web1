@@ -1,6 +1,6 @@
 .logo {
 float: left;
-margin-right: 100px;
+margin-left:20px;
 width: 0;
 height: 0;
 color. rgba(255,255,255,0);
@@ -16,8 +16,9 @@ transition: all 0.2s ease;
 /* Navagation */
 
 .main-nav {
-max-width: 960px;
+max-width: 1200;
 margin: 20px auto;
+margin-right: 20px auto;
 text-align: right;
 position: fixed;
 width: 100%;
@@ -25,7 +26,7 @@ width: 100%;
 
 .nav-link {
     text-decoration: none;
-    padding: 40px 30px 40px 30px;
+    padding: 50px 30px 30px 40px;
     display: inline-block;
     border-radius: px;
     margin: 5px;
@@ -41,7 +42,7 @@ background-repeat:no-repeat;
 }
 .nav-tips {
 background-image: url('images/tips.png');  
-background-size: 57;
+background-size: 50;
 background-repeat:no-repeat;
 
 }
@@ -53,14 +54,38 @@ background-repeat:no-repeat;
 }
 
 
-.hero-yellow {
+.body-image {
 margin: 130px auto;
 text-align: left;
 position: fixed;
 width: 100%;
+background-size: cover;
 }
 
+
+h1 {
+	position: absolute; 
+    top: 180px; 
+	left: 830px;
+	font-size:24px;
+
+}
+h2 { 
+   position: absolute; 
+   top: 220px; 
+   left: 830px; 
+   width: 25%;
+   font-size:15px; 
+}
+
+h3 { 
+   position: absolute; 
+   top: 280px; 
+   left: 830px; 
+   width: 25%;
+   font-size:15px; 
+}
 body { 
     font-family: arial, sans-serif;
-  background-image: url(iphone-7-plus-1200x800.jpg);
+
 }
