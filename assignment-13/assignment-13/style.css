@@ -1,0 +1,202 @@
+.logo {
+float: left;
+margin-left:20px;
+width: 0;
+height: 0;
+color: rgba(255,255,255,0);
+padding: 85px 300px 0 0;
+background-image: url('images/logo.png');
+background-size: 300px 85px;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 3px;
+}
+
+/* Navagation */
+
+.main-nav {
+max-width: inherit;
+margin: 20px auto;
+margin-right: 20px auto;
+text-align: right;
+position: fixed;
+width: 100%;
+padding-bottom: 13px; 
+border-bottom: 3px solid;
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 50px 31px 30px 40px;
+    display: inline-block;
+    margin: 5px;
+	margin-right: 15px;
+}
+
+.nav-home {
+background-image: url('images/Home.png'); 
+background-size: 80%;
+background-repeat:no-repeat; 
+}
+.nav-home-active {
+background-image:url('images/homehover.png');
+background-size: 80%;
+background-repeat:no-repeat;
+}
+.nav-home:hover {
+background-image:url('images/homehover.png'); 
+background-size: 80%;
+background-repeat:no-repeat;
+}
+
+.nav-tips {
+background-image: url('images/tips.png');  
+background-size: 80%;
+background-repeat:no-repeat;
+}
+.nav-tips-active {
+background-image:url('images/tipshover.png');
+background-size: 80%;
+background-repeat:no-repeat;
+}
+.nav-tips:hover {
+background-image:url('images/tipshover.png'); 
+background-size: 80%;
+background-repeat:no-repeat;
+}
+
+.nav-gallery {
+background-image: url('images/gallery.png');
+background-size: 80%;
+background-repeat:no-repeat;
+}
+.nav-gallery-active {
+background-image:url('images/galleryhover.png');
+background-size: 80%;
+background-repeat:no-repeat;
+}
+.nav-gallery:hover {
+background-image:url('images/galleryhover.png'); 
+background-size: 80%;
+background-repeat:no-repeat;
+}
+
+
+.body-image {
+margin: 130px auto;
+text-align: left;
+position: fixed;
+width: 100%;
+height: 100%; 
+max-width: inherit;
+max-height: inherit;
+background-size: cover;
+background-image: url('images/iphone-7-plus-1200x800.jpg');
+}
+
+
+h1 {
+	position: relative; 
+    top: 250px; 
+	left: 1030px;
+	font-size:24px;
+	width: 300px;
+}
+h2 { 
+   position: relative; 
+   top: 260px; 
+   left: 1030px; 
+   width: 330px;
+   font-size:15px;
+	opacity: 0.8;
+}
+
+h3 { 
+   position: relative; 
+   top: 265px; 
+   left: 1030px; 
+   width: 300px;
+   font-size:15px; 
+	opacity: 0.8;
+}
+body { 
+    font-family: arial, sans-serif;
+	margin: inherit;
+	margin-top: inherit;
+
+}
+
+.boxed {
+  border: 2px solid black ;
+	padding: 1px 2px 1px 2px; 
+  text-direction: none;
+
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a,a:visited {
+    color: black;
+text-decoration: none;
+}
+a:hover {
+color: black;
+	}
+
+.tips-body{
+margin: 130px auto;
+padding-top: 30px;
+text-align: left;
+position: fixed;
+}
+
+table{
+position:fixed;
+	}
+td{
+position:inherit;
+}
+th{
+position:fixed;
+text-align: left;
+
+}
+
+/* tips */
+
+.head {
+position: relative;
+font-family: Circular Std, Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+width: 200px;
+font-size: 20px;
+
+}
+
+.body {
+position: relative;
+font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+width: 200px;
+font-size: 15px;	
+}
+
+/* gallery */
+
+.gallery{
+text-align: left;
+top: 265px;
+}
+h4 { 
+   position: relative; 
+   top: 220px; 
+   left: 103px; 
+   width: 300px;
+   font-size:15px; 
+	opacity: 0.8;
+}

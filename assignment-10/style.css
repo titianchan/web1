@@ -35,20 +35,19 @@ width: 100%;
 
 .nav-gallery {
 background-image: url('images/gallery.png');
-background-size: 49;
+background-size: 80%;
 background-repeat:no-repeat;
-
 
 }
 .nav-tips {
 background-image: url('images/tips.png');  
-background-size: 50;
+background-size: 79%;
 background-repeat:no-repeat;
 
 }
 .nav-home {
 background-image: url('images/home.png'); 
-background-size: 50;
+background-size: 80%;
 background-repeat:no-repeat;
  
 }
@@ -60,6 +59,7 @@ text-align: left;
 position: fixed;
 width: 100%;
 background-size: cover;
+background-image: url('images/iphone-7-plus-1200x800.jpg');
 }
 
 
@@ -68,6 +68,7 @@ h1 {
     top: 180px; 
 	left: 830px;
 	font-size:24px;
+	font-variant: fixed;
 
 }
 h2 { 
@@ -83,7 +84,7 @@ h3 {
    top: 280px; 
    left: 830px; 
    width: 25%;
-   font-size:15px; 
+   font-size:15px;
 }
 body { 
     font-family: arial, sans-serif;
